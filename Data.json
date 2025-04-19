@@ -1,0 +1,44 @@
+{
+    "Roma": {
+        "name" : "Roma",
+        "temp": 22.4,
+        "description": "Cielo sereno",
+        "humidity": 48,
+        "wind": 3.2,
+        "icon": "☀️"
+    },
+    "Milano": {
+        "name" : "Milano",
+        "temp": 18.1,
+        "description": "Nubi sparse",
+        "humidity": 60,
+        "wind": 2.8,
+        "icon": "🌥️"
+    },
+    "Napoli": {
+        "name" : "Napoli",
+        "temp": 24.7,
+        "description": "Poco nuvoloso",
+        "humidity": 55,
+        "wind": 3.5,
+        "icon": "🌤️"
+    },
+    "Torino": {
+        "name" : "Torino",
+        "temp": 17.9,
+        "description": "Pioggia leggera",
+        "humidity": 70,
+        "wind": 4.0,
+        "icon": "🌧️"
+    },
+    "Palermo": {
+        "name" : "Palermo",
+        "temp": 26.3,
+        "description": "Cielo sereno",
+        "humidity": 50,
+        "wind": 2.2,
+        "icon": "☀️"
+    }
+}
+
+  
