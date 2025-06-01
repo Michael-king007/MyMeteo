@@ -1,1 +1,101 @@
+/*
+Stili per la pagina principale
+*/
+body{
+    background-color: #bae0f2;
+    margin-top: 100px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/*
+Stile per il div principale
+*/
+.container{
+    background-color: white;;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    .header{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #006dc7;
+    }
+    span{
+        color: #ffc500;
+    }
+    .icon{
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .error{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 250px;
+    }
+}
+/*Stile per il div di ricerca*/
+.search{
+    display: flex;
+    gap: 0px;
+    flex-direction: row;
+    height: 40px;
+    .input{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #c2cad0;
+        border-right: 0px;
+        font-family: 'Comfortaa', sans-serif;
+    }
+    button{
+        background-color: #4aa2f8;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        width: 75px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: 'Comfortaa', sans-serif;
+    }
+    button:hover{
+        background-color:#ffc500;
+        color: black;
+    }
+}
 
+/* Stile per il footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 10px;
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+}
